@@ -1,0 +1,27 @@
+.filter_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: end;
+    gap: 1.2rem;
+    margin-bottom: -1.5rem;
+}
+
+.filter_container button {
+    background-color: #ff4343;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 155%;
+
+}
+
+.filter_container button:hover {
+    background-color: #f38989;
+}
+
+.filter_container button:focus,
+.filter_container button:active {
+    box-shadow: 1px 1px 5px rgba(219, 208, 238, 0.753);
+}
