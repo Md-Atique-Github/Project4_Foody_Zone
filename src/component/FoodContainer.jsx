@@ -30,12 +30,12 @@ const FoodContainer = ({ results }) => {
           setError("unable to fetch data");
           setLoading(false);
         });
-
     }
   }, [results]);
 
   if (error) return <div>{error}</div>
   if (loading) return <div>Loading...</div>
+
 
   return (
     <>

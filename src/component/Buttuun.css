@@ -8,13 +8,13 @@
 }
 
 .filter_container button {
-    background-color: #ff4343;
+    background: #ff4343;
     padding: 0.6rem 1.2rem;
     border-radius: 0.5rem;
     border: none;
     color: white;
     font-size: 155%;
-
+    cursor: pointer;
 }
 
 .filter_container button:hover {

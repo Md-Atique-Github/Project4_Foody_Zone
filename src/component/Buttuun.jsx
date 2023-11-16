@@ -1,12 +1,17 @@
 import React from 'react'
 import './Buttuun.css'
 
-const Buttuun = (props) => {
+const Buttuun = ({ name, onClick }) => {
+
     return (
-        <div className='filter_container'>
-            <button >{props.name}</button>
-        </div>
-    )
+        <>
+            <div className='filter_container'>
+                <button onClick={onClick}>
+                    {name}
+                </button>
+            </div>
+        </>
+    );
 }
 
 export default Buttuun
